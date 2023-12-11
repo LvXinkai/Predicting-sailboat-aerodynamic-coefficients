@@ -30,7 +30,7 @@ class TrainOptions:
 
         self.parser.add_argument('--gpu_ids', type=str, default='0', help='gpu ids: e.g. 0  0,1,2')
 
-        self.parser.add_argument('--checkpoint_dir', type=str, default='../dataset/OAMM', help='models are saved here')
+        self.parser.add_argument('--checkpoint_dir', type=str, default='../checkpoints/OAMM', help='models are saved here')
         self.parser.add_argument('--phase', type=str, default='train')
         self.parser.add_argument('--model_folder', type=str, default='model_folder', help='Save the folder for the model')
 
